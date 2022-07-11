@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">NavigationDrawertheme</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="About">About Developer</string>
+    <string name="bbc">BBC Bangla</string>
+    <string name="aljazeera">Al Jazeera</string>
+    <string name="prothomalo">Prothom Alo</string>
+    <string name="bdpratidin">Bd Pratidin</string>
+    <string name="dailynayadiganta">Daily Nayadiganta</string>
+    <string name="bdit">BD IT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hi">Hi My Name Is Mohammed Foysal</string>
+    <string name="addmissingplace">Add Missing Place</string>
+</resources>

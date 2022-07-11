@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_round_home_24"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/search_24"
+            android:title="Search" />
+
+        <item
+            android:id="@+id/nav_all_categories"
+            android:icon="@drawable/ic_baseline_category_24"
+            android:title="All Category" />
+
+        <item
+            android:id="@+id/addMissingPlace"
+            android:icon="@drawable/ic_baseline_place_24"
+            android:title="@string/addmissingplace" />
+
+
+    </group>
+
+    <item android:title="Profile">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    android:title="Login" />
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_baseline_person_24"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_baseline_settings_24"
+                    android:title="Settings" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/profile_remove_24"
+                    android:title="LogOut" />
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Categories">
+
+        <menu>
+
+            <group android:checkableBehavior="none">
+
+                <item
+                    android:id="@+id/nev_share"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Share" />
+
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:icon="@drawable/ic_baseline_star_rate_24"
+                    android:title="Rate Us" />
+
+
+            </group>
+
+        </menu>
+    </item>
+
+</menu>

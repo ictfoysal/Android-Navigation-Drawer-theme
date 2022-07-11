@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/Profile"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:title="Profile"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_baseline_star_outline_24"
+                android:title="Rate App" />
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_baseline_send_24"
+                android:title="Feedback" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="Share App" />
+
+            <item
+                android:id="@+id/About"
+                android:icon="@drawable/ic_baseline_developer_mode_24"
+                android:title="About developer"
+                app:showAsAction="never" />
+
+        </menu>
+
+    </item>
+
+</menu>
